@@ -11,10 +11,10 @@ Recognizing faces from low resolution images.
 ### Idealo repository fork. (pre-SOTA)
 1. pip install ISR
 2.
-`import numpy as np`
-`from PIL import Image`
-`img = Image.open('Image_path')`
-`lr_img = np.array(img)`
+```import numpy as np
+from PIL import Image
+img = Image.open('Image_path')
+lr_img = np.array(img)```
 
 ```python
 from ISR.models import RDN
