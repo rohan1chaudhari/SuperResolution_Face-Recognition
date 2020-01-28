@@ -14,9 +14,9 @@ Recognizing faces from low resolution images.
 ```import numpy as np
 from PIL import Image
 img = Image.open('Image_path')
-lr_img = np.array(img)```
+lr_img = np.array(img)
 
-```python
+
 from ISR.models import RDN
 
 rdn = RDN(weights='model_to_use')
